@@ -5,8 +5,4 @@ module "s3-bucket" {
   bucket = "my-s3-bucket"
   acl    = "private"
 
-  versioning = {
-    enabled = true
-  }
-
 }
